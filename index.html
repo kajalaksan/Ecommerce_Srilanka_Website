@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylon Treasures | Authentic Sri Lankan Goods</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Ceylon Treasures</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="cart-btn" aria-label="Cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    <span class="cart-count">0</span>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Experience the Essence of Sri Lanka</h1>
+                <p>Curated collection of the finest Ceylon teas, spices, and handcrafted treasures.</p>
+                <a href="#shop" class="btn btn-primary">Explore Collection</a>
+            </div>
+            <div class="hero-image-container">
+                <!-- Image will be inserted here -->
+                <img src="assets/hero-ceylon.png" alt="Scenic Sri Lankan Landscape" class="hero-image">
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="feature-card">
+                    <div class="icon">🌿</div>
+                    <h3>Authentic Origin</h3>
+                    <p>Sourced directly from local artisans and farmers.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">💎</div>
+                    <h3>Premium Quality</h3>
+                    <p>Handpicked for the highest standards of excellence.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🚚</div>
+                    <h3>Island-wide Delivery</h3>
+                    <p>Fast and secure shipping across Sri Lanka.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="shop" class="products-section">
+            <div class="container">
+                <h2 class="section-title">Featured Collections</h2>
+                <div class="product-grid" id="product-grid">
+                    <!-- Products will be injected via JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3>Ceylon Treasures</h3>
+                <p>Bringing the best of Sri Lanka to your doorstep.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Colombo, Sri Lanka</p>
+                <p>hello@ceylontreasures.lk</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Ceylon Treasures. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
